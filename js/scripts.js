@@ -4,13 +4,12 @@ function drawStar(j, star) {
 		element = element.concat(star);
 	}
 	return element;
- }
+}
 
 function drawTree(y) {
 	for (var i = 1; i <= y; i++) {
-		console.log(drawStar(y, " ") + drawStar(i, "*"))
-		}
+		console.log(drawStar(" ") + drawStar(i, "*"))
+	}
 }
-
 
 drawTree(5); 
